@@ -1,6 +1,7 @@
 h1{
 	color: yellow;
 	margin-left: 10px;
+	position: fixed;
 }
 h3{
 	color: white;
@@ -9,9 +10,9 @@ h3{
 	padding-top:0px;
 }
 .oke{
-	margin-left: 900px;
-	margin-top: 20px;
-	margin-bottom: 50px;
+	padding-left: 1100px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 .atas{
 	background-color: #0b253d;
@@ -21,5 +22,5 @@ b{
 	margin-top: 0px;
 }
 .Buku{
-	margin-left: 17%;
+	margin-left: 3%;
 }
