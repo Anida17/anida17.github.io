@@ -1,6 +1,7 @@
 h1{
 	color: yellow;
 	margin-left: 10px;
+	position: fixed;
 
 }
 h3{
@@ -45,3 +46,7 @@ h5{
 	margin-bottom: 50px;
 
 }
+.oke{
+	padding-left: 1100px;
+	padding-top: 20px;
+	padding-bottom: 20px;
