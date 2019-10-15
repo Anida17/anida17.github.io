@@ -1,0 +1,74 @@
+h1{
+	color: yellow;
+	margin-left: 10px;
+	position: fixed;
+}
+h3{
+	color: white;
+	margin-left: 70px;
+	margin-top: -60px;
+	padding-top:0px;
+}
+.oke{
+	padding-left: 1100px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.atas{
+	background-color: #0b253d;
+}
+b{
+	margin-left: 30px;
+	margin-top: 0px;
+}
+.buku{
+	margin-left: 300px;
+	
+}
+.buku1{
+	margin-left: 200px;
+	margin-top: 0 px;
+}
+.buku1 .Tambahkan{
+	background-color: green;
+	color: white;
+	border: 1px solid green;
+	padding: 5px 5px 5px 5px;
+	font-family:Lohit Telugu;
+	text-align: center;
+	text-decoration: none;
+	margin-right: 20%;
+	margin-left: 70%;
+}
+.Matematika{
+	background-color: white;
+	color: black;
+	border : 1px solid black;
+	padding: 5px 5px 5px 5px;
+	font-family:Lohit Telugu;
+	text-align: center;
+	text-decoration: none;
+	margin-left: : 20%;
+	border-radius: 20%
+
+}
+.pesan{
+	border: 1px solid green;
+	padding: 5px 5px 5px 5px;
+	font-family:Lohit Telugu;
+	text-align: center;
+	text-decoration: none;
+	margin-right: 20%;
+	margin-left: 70%;
+}
+.Tambahkan{
+	background-color: green;
+	color: white;
+	border: 1px solid green;
+	padding: 5px 5px 5px 5px;
+	font-family:Lohit Telugu;
+	text-align: center;
+	text-decoration: none;
+	margin-right: 20%;
+	margin-left: 70%;
+}
