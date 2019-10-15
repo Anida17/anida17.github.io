@@ -16,7 +16,7 @@ h2{
 	margin-bottom: 0px;
 	background-color: black;
 }
-a{
+.oke a{
 	margin-left: 900px;
 	margin-top: 20px;
 	margin-bottom: 50px;
@@ -36,6 +36,7 @@ b{
 .buku1{
 	margin-left: 200px;
 	margin-top: 0 px;
+
 }
 
 
@@ -50,3 +51,27 @@ h5{
 	padding-left: 1100px;
 	padding-top: 20px;
 	padding-bottom: 20px;
+}
+.buku1 .Tambahkan{
+	background-color: green;
+	color: white;
+	border: 1px solid green;
+	padding: 5px 5px 5px 5px;
+	font-family:Lohit Telugu;
+	text-align: center;
+	text-decoration: none;
+	margin-right: 20%;
+	margin-left: 70%;
+}
+.Matematika{
+	background-color: white;
+	color: black;
+	border : 1px solid black;
+	padding: 5px 5px 5px 5px;
+	font-family:Lohit Telugu;
+	text-align: center;
+	text-decoration: none;
+	margin-left: : 20%;
+	border-radius: 40%
+
+}
