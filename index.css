@@ -1,6 +1,6 @@
 .button{
     position: absolute;
-    top: 32.5%;
+    top: 35%;
     left: 25%;
     transform: translate(-50%,-50%);
 }
@@ -9,7 +9,7 @@
     border: 1px solid white;
     padding: 5px 40px;
     color: white;
-    top: 32.5%;
+    top: 35%;
     left: 75.3%;
     transform: translate(-40%,-50%);
 }
@@ -20,13 +20,13 @@
     color: white;
     text-decoration: none;
     transition: 0.6s ease;
-    top: 32.5%;
+    top: 35%;
     left: 90%;
     transform: translate(-50%,-50%);
 }
 .notifikasi{
     position: absolute;
-    top:32.5%;
+    top:35%;
     left: 96%;
     transform: translate(-50%,-50%);
 }
