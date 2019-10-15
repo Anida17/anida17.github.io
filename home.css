@@ -1,0 +1,56 @@
+.button{
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+}
+.search{
+    position: absolute;
+    border: 1px solid white;
+    padding: 5px 40px;
+    color: white;
+    top: 35%;
+    left: 75.3%;
+    transform: translate(-40%,-50%);
+}
+.submit{
+    position: absolute;
+    border: 1px solid white;
+    padding: 5px 20px;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+    top: 35%;
+    left: 90%;
+    transform: translate(-50%,-50%);
+}
+.notifikasi{
+    position: absolute;
+    top: 35%;
+    left: 96%;
+    transform: translate(-50%,-50%);
+}
+.link{
+    text-decoration: none;
+    color: yellow;
+    font-size: 16pt;
+}
+.link:hover{
+    color: rgb(211, 57, 57)
+}
+.logout{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    left: 1205px;
+    top: 23%;
+}
+.logout:hover{
+    color: rgb(146, 182, 17);
+}
+.pesan{
+    text-decoration: none;
+}
+.pesan:hover{
+    color:purple;
+}
