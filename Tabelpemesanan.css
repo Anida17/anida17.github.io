@@ -19,8 +19,6 @@
 }*/
 .pilihan.batal{
     position: absolute;
-    top: 700px;
-    left: 42%;
     border: 1px solid white;
     padding: 10px 30px;
     background-color: rgb(243, 44, 44);
@@ -30,9 +28,7 @@
 }
 .pilihan.simpan{
     position: absolute;
-    top: 700px;
-    left: 51%;
-    border: 1px solid white;
+	border: 1px solid white;
     padding: 10px 30px;
     background-color: rgb(14, 190, 102);
     color: white;
