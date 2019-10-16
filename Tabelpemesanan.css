@@ -40,9 +40,10 @@
     background-color: rgb(83, 132, 240);
 }
 .pilihan{
-	margin-right: 30%;
-	margin-left: 50%;
-	margin-top: 60%;
+	position:absolute;
+	right: 30%;
+	left: 50%;
+	top: 60%;
 }
 .tabel{
 	margin-left: 15%;
