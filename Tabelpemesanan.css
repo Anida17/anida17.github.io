@@ -1,22 +1,4 @@
-h1{
-	color: yellow;
-	margin-left: 10px;
-	position: fixed;
-}
-h3{
-	color: white;
-	margin-left: 70px;
-	margin-top: -60px;
-	padding-top:0px;
-}
-.oke{
-	padding-left: 1100px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-.atas{
-	background-color: #0b253d;
-}
+
 .pilihan .Batal{
 	background-color: red;
 	color: white;
