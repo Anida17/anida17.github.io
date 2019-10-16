@@ -79,7 +79,7 @@
     background-color: rgba(248, 249, 250, 0.938);
     border: white
 }
-.selesai{
+.tabel.selesai{
     position: absolute;
     top: 900px;
     left: 39%;
@@ -90,6 +90,6 @@
     text-decoration: none;
     transition: 0.6s ease;
 }
-.selesai:hover{
+.tabel.selesai:hover{
     background-color: rgb(71, 46, 8);
 }
