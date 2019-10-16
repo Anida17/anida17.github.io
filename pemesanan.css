@@ -1,26 +1,48 @@
-h1{
-	color: yellow;
-	margin-left: 10px;
-	position: fixed;
-
+.button{
+    position: absolute;
+    top: 30.5%;
+    left: 3%;;
 }
-h3{
-	color: white;
-	margin-left: 70px;
-	margin-top: -60px;
-	padding-top:-10px;
+.search{
+    position: absolute;
+    border: 1px solid white;
+    padding: 5px 40px;
+    color: white;
+    top: 30.3%;
+    left: 67%;
 }
-h2{
-	color: yellow;
-	margin-left: 0px;
-	margin-bottom: 0px;
-	background-color: black;
+.submit{
+    position: absolute;
+    border: 1px solid white;
+    padding: 5px 20px;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+    top: 30%;
+    left: 86%;
 }
-.oke a{
-	margin-left: 900px;
-	margin-top: 20px;
-	margin-bottom: 50px;
-
+.notifikasi{
+    position: absolute;
+    top:30.5%;
+    left: 95%;
+}
+.link{
+    text-decoration: none;
+    color: yellow;
+    font-size: 16pt;
+}
+.link:hover{
+    color: rgb(211, 57, 57)
+}
+.logout{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    left: 1205px;
+    top: 23%;
+}
+.logout:hover{
+    color: rgb(146, 182, 17);
 }
 .atas{
 	background-color: #0b253d;
