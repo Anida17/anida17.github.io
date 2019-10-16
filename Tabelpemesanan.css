@@ -17,7 +17,7 @@
 	text-align: center;
 	text-decoration: none;
 }*/
-.batal{
+.pilihan.batal{
     position: absolute;
     top: 700px;
     left: 42%;
@@ -28,7 +28,7 @@
     text-decoration: none;
     transition: 0.6s ease;
 }
-.simpan{
+.pilihan.simpan{
     position: absolute;
     top: 700px;
     left: 51%;
@@ -39,10 +39,10 @@
     text-decoration: none;
     transition: 0.6s ease;
 }
-.batal:hover{
+.pilihan.batal:hover{
     background-color: black
 }
-.simpan:hover{
+.pilihan.simpan:hover{
     background-color: rgb(83, 132, 240);
 }
 .pilihan{
