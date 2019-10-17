@@ -46,54 +46,83 @@
                 <br>
                 <br>
                 <br>
-                <br>
-                <tr>
-                    <td><font face="Roboto" style="font-size: 22pt;color:grey; margin-left:350px">Username</font></td>
-                    <td><font face="Roboto" style="font-size: 22pt;color:grey; margin-left:-740px">:</font></td>
-                    <td><input type="text" name="username" size="40" placeholder="Username" style="margin-left:-630px" class="username" required></td>
-                </tr>
-                <tr>
-                    <td><font face="Roboto" style="font-size: 22pt;color:grey; margin-left:350px">Jenis Kelamin</font></td>
-                    <td><font face="Roboto" style="font-size: 22pt;color:grey; margin-left:-740px">:</font></td>
-                    <td>
-                        <input type="radio" name="lakilaki" value="lakilaki" style="margin-left:-400px" required><font face="Roboto" style="font-size: 14pt;color:grey">Laki-laki</font> &nbsp;&nbsp;&nbsp;&nbsp;
-                        <input type="radio" name="perempuan" value="perempuan" style="margin-left:-370px" required><font face="Roboto" style="font-size: 14pt;color:grey">Perempuan</font>
-                    </td>
-                </tr>
-                <tr>
-                    <td><font face="Roboto" style="font-size: 22pt;color:grey; margin-left:350px">Alamat</font></td>
-                    <td><font face="Roboto" style="font-size: 22pt;color:grey; margin-left: -740px">:</font></td>
-                    <td><input type="text" name="alamat" size="40" placeholder="Isi alamat" style="margin-left:-630px" class="alamat" required minlength="8" maxlength="12"></td>
-                </tr>
-                <tr>
-                    <td><font face="Roboto" style="font-size: 22pt;color:grey; margin-left:350px">Email</font></td>
-                    <td><font face="Roboto" style="font-size: 22pt;color:grey; margin-left:-740px">:</font></td>
-                    <td><input type="email" name="email" size="40" placeholder="abcdef@gmail.com" style="margin-left:-630px" required class="email" minlength="8" maxlength="12"></td>
-                </tr>
-                <tr>
-                    <td><font face="Roboto" style="font-size: 22pt;color:grey; margin-left:350px">Password</font></td>
-                    <td><font face="Roboto" style="font-size: 22pt;color:grey; margin-left:-740px">:</font></td>
-                    <td><input type="password" name="password" size="40" placeholder="password" required minlength="8" maxlength="12" style="margin-left:-630px" class="password"></td>
-                </tr>
-                <tr>
-                    <td><font face="Roboto" style="font-size: 22pt;color:grey; margin-left:350px">No. KTP</font></td>
-                    <td><font face="Roboto" style="font-size: 22pt;color:grey; margin-left:-740px">:</font></td>
-                    <td><input type="text" name="ktp" size="40" placeholder="35xxxxxxxxxxxxxx" required minlength="16" maxlength="16" style="margin-left:-630px" class="ktp"></td>
-                </tr>
-                <tr>
-                    <td><font face="Roboto" style="font-size: 22pt;color:grey; margin-left:350px">No. HP</font></td>
-                    <td><font face="Roboto" style="font-size: 22pt;color:grey; margin-left:-740px">:</font></td>
-                    <td><input type="text" name="HP" size="40" placeholder="08xxxxxxxxxx" required minlength="11" maxlength="12" style="margin-left:-630px" class="hp"></td>
-                </tr>
-    </table>
+    <form onsubmit="return Validate()" action="login.html">
+
+        <label for="username">
+                <font face="Roboto" style="font-size: 18pt;color:grey; margin-left:450px">Username </font>
+        </label>
+        <input type="text" name="username" size="40" placeholder="Username" style="margin-left:-630px" class="username" required>
     <br>
     <br>
+        <label for="jeniskelamin">
+            <font face="Roboto" style="font-size: 18pt;color:grey; margin-left:450px">Jenis Kelamin </font>
+        </label>
+        <div class="jeniskelamin">
+            <input type="radio" name="lakilaki" value="lakilaki" required><font face="Roboto" style="font-size: 16pt;color:grey">Laki-laki</font> &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="perempuan" value="perempuan" required><font face="Roboto" style="font-size: 16pt;color:grey">Perempuan</font>
+        </div>
     <br>
     <br>
+        <label for="alamat">
+            <font face="Roboto" style="font-size: 18pt;color:grey; margin-left:450px">Alamat </font>
+        </label>
+        <input type="text" name="alamat" size="40" placeholder="Isi alamat" style="margin-left:-630px" class="alamat" required>
     <br>
-    <p align="center">
-        <a href="login.html" class="register"><font face="Gisha" style="font-size: 16pt"><i>Register</i></font></a>
-        </p>
+    <br>
+        <label for="email">
+                <font face="Roboto" style="font-size: 18pt;color:grey; margin-left:450px">Email </font>
+        </label>
+        <td><input type="email" name="email" size="40" placeholder="username@gmail.com" style="margin-left:-630px" required class="email">
+    <br>
+    <br>
+        <label for="password">
+            <font face="Roboto" style="font-size: 18pt;color:grey; margin-left:450px">Password </font>
+        </label>
+        <input type="password" name="password" size="40" placeholder="password" required minlength="8" maxlength="12" style="margin-left:-630px" class="password">
+    <br>
+    <br>
+        <label for="ktp">
+            <font face="Roboto" style="font-size: 18pt;color:grey; margin-left:450px">KTP </font>
+        </label>
+        <input type="text" name="ktp" size="40" placeholder="35xxxxxxxxxxxxxx" required minlength="16" maxlength="16" style="margin-left:-630px" class="ktp">
+    <br>
+    <br>
+        <label for="hp">
+            <font face="Roboto" style="font-size: 18pt;color:grey; margin-left:450px">No. HP </font>
+        </label>
+        <input type="text" name="HP" size="40" placeholder="08xxxxxxxxxx" required minlength="11" maxlength="12" style="margin-left:-630px" class="hp">
+    <br>
+    <br>
+            <button class="register" type="submit" onclick="Validate();">
+                <font face="Gisha" style="font-size: 16pt"><i>Daftar</i></font>
+            </button>
+    </form>
+    <script type="text/javascript">
+    
+    function Validate()
+    {
+        var username = document.getElementById("username");
+        var password = document.getElementById("jeniskelamin");
+        var password = document.getElementById("alamat");
+        var password = document.getElementById("email");
+        var password = document.getElementById("password");
+        var password = document.getElementById("ktp");
+        var password = document.getElementById("hp");
+    
+        if(username.value.trim()=="" ||jeniskelamin.value.trim()=="" ||alamat.value.trim()=="" ||email.value.trim()=="" ||password.value.trim()=="" ||ktp.value.trim()=="" ||hp.value.trim()=="") 
+        {
+            alert("Tidak boleh kosong");
+            return false;
+        }
+        else 
+        {
+                true;
+        }
+        }    
+    </script>
+        <br>
+        <br>
+        <br>
         <br>
         <br>
         <br>
