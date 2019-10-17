@@ -1,0 +1,188 @@
+
+.judul{
+    /*border: red 1pt solid;*/
+    background-color: #083e46;
+    color: white;
+    width: 100%;
+        }   
+.isijudul{
+    /*border: red 1pt solid;*/
+    width: fit-content;
+}    
+.judul img{
+    /*border: red 1pt solid;*/
+}         
+.judul h2{
+    /*border: red 1pt solid;*/
+    width: fit-content;
+    display: inline;
+    vertical-align: 10pt;
+}
+.tombolatas{
+    background-color: #083e46;
+    border-top: 2pt white solid;
+    height: fit-content;
+    padding-bottom: 15pt;
+    /*position: fixed;*/
+    width: 100%;
+    
+}
+.tombolataskiri, .tombolataskanan {
+    padding-top: 15pt;
+    padding-left:10pt ;
+
+    display: inline;
+}
+.tombolataskiri a{
+    text-decoration: none;
+    background-color: #9dccd3;
+    margin-right: 10pt ;
+    padding: 7pt;
+    color: black;
+    float: left;
+}
+
+.tombolataskanan a{
+    text-decoration: none;
+    border: #083e46 2pt solid;
+    margin-right: 10pt ;
+    padding: 5pt;
+    color: black;
+    float: right;
+    margin-top: 5pt;
+}
+.tombolatas button{
+    padding: 2pt;
+    display: none;
+}
+.daftar{
+    color: rgb(76, 76, 172);
+    font-size: 18pt;
+}
+.login{
+    color: rgb(76, 76, 172);
+    font-size: 18pt;
+}
+.daftar:hover{
+    color: rgb(58, 5, 63)
+}
+.login:hover{
+    color: rgb(58, 5, 63)
+}
+@media screen and (max-width: 800px){
+    .isijudul{
+        margin: 0 auto;
+        
+    }                
+    .tombolatas{
+        /* display: none; */
+    }
+    .tombolatas button{
+        display: inline;
+        float: right;
+        margin-inline-end: 1cm;
+        margin-top: 5pt;
+    }
+    .tombolataskiri a, .tombolataskanan a {
+        float: none;10pt;
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 5pt;
+        text-align: center;
+    }
+}
+.badan{
+    margin-top: 10%;
+}
+/*.button{
+    position: absolute;
+    top: 30.5%;
+    left: 3%;
+}
+.button a{
+    text-decoration: : none;
+}*/
+/* .search{
+    position: absolute;
+    border: 1px solid white;
+    padding: 5px 40px;
+    color: white;
+    top: 30.3%;
+    left: 67%;
+}
+.submit{
+    position: absolute;
+    border: 1px solid white;
+    padding: 5px 20px;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+    top: 30%;
+    left: 86%;
+}
+.notifikasi{
+    position: absolute;
+    top:30.5%;
+    left: 95%;
+}
+.link{
+    text-decoration: none;
+    color: yellow;
+    font-size: 16pt;
+}
+.link:hover{
+    color: rgb(211, 57, 57);
+}*/
+
+
+/*.button{
+    position: absolute;
+    top: 30.5%;
+    left: 3%;;
+}
+.search{
+    position: absolute;
+    border: 1px solid white;
+    padding: 5px 40px;
+    color: white;
+    top: 30.3%;
+    left: 67%;
+}
+.submit{
+    position: absolute;
+    border: 1px solid white;
+    padding: 5px 20px;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+    top: 30%;
+    left: 86%;
+}
+.notifikasi{
+    position: absolute;
+    top:30.5%;
+    left: 95%;
+}
+.link{
+    text-decoration: none;
+    color: yellow;
+    font-size: 16pt;
+}
+.link:hover{
+    color: rgb(211, 57, 57);
+}
+.daftar{
+    color: rgb(76, 76, 172);
+    font-size: 18pt;
+}
+.login{
+    color: rgb(76, 76, 172);
+    font-size: 18pt;
+}
+.daftar:hover{
+    color: rgb(58, 5, 63)
+}
+.login:hover{
+    color: rgb(58, 5, 63)
+} */
