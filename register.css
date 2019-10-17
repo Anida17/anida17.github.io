@@ -20,72 +20,77 @@
     border: 1px solid grey;
     border-radius: 3%;
     padding: 6px 60px;
-    color: white;
+    color: rgb(27, 26, 26);
     text-decoration: none;
     transition: 0.6s ease;
     transform: translate(-50%,-50%);
     position: absolute;
-    top:538px;
+    top:515px;
     left:1510px;
+}
+.jeniskelamin{
+    position: absolute;
+    top:545px;
+    left:680px;
 }
 .alamat{
     border: 1px solid grey;
     border-radius: 3%;
     padding: 6px 60px;
-    color: white;
+    color: rgb(27, 26, 26;
     text-decoration: none;
     transition: 0.6s ease;
     transform: translate(-50%,-50%);
     position: absolute;
-    top:595px;
+    top:605px;
     left:1510px;
 }
 .email{
     border: 1px solid grey;
     border-radius: 3%;
     padding: 6px 60px;
-    color: white;
+    color: rgb(27, 26, 26;
     text-decoration: none;
     transition: 0.6s ease;
     transform: translate(-50%,-50%);
     position: absolute;
-    top:630px;
+    top:650px;
     left:1510px;
 }
 .password{
     border: 1px solid grey;
     border-radius: 3%;
     padding: 6px 60px;
-    color: white;
+    color: rgb(27, 26, 26;
     text-decoration: none;
     transition: 0.6s ease;
     transform: translate(-50%,-50%);
     position: absolute;
-    top:665px;
+    top:715px;
     left:1510px;
 }
 .ktp{
     border: 1px solid grey;
     border-radius: 3%;
     padding: 6px 60px;
-    color: white;
+    color: rgb(27, 26, 26;
     text-decoration: none;
     transition: 0.6s ease;
     transform: translate(-50%,-50%);
     position: absolute;
-    top:700px;
+    top:760px;
     left:1510px;
 }
 .hp{
     border: 1px solid grey;
     border-radius: 3%;
     padding: 6px 60px;
-    color: white;
+    color: rgb(27, 26, 26;
     text-decoration: none;
     transition: 0.6s ease;
     transform: translate(-50%,-50%);
     position: absolute;
-    top:735px;
+    top:805px;
     left:1510px;
 }
 .register{
@@ -95,6 +100,9 @@
     color: white;
     text-decoration: none;
     transition: 0.6s ease;
+    position: absolute;
+    top:880px;
+    left:640px;
 }
 .register:hover{
     background-color: black;
