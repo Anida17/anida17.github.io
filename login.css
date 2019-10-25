@@ -33,7 +33,6 @@
     padding: 6px 25px;
     color: black;
     text-decoration: none;
-    transition: 0.6s ease;
     position: absolute;
     top:535px;
     left:1210px;
@@ -53,5 +52,5 @@
     background-color: black;
 }
 .register:hover{
-    color: rgb(179, 15, 179)
+    color: rgb(179, 15, 179);
 }
