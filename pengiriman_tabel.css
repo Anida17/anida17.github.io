@@ -1,3 +1,26 @@
+@media screen and (max-width: 800px){
+    .isijudul{
+        margin: 0 auto;
+        
+    }                
+    .tombolatas{
+        /* display: none; */
+    }
+    .tombolatas button{
+        display: inline;
+        float: right;
+        margin-inline-end: 1cm;
+        margin-top: 5pt;
+    }
+    .tombolataskiri a, .tombolataskanan a {
+        float: none;10pt;
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 5pt;
+        text-align: center;
+    }
+}
 .judul{
     /*border: red 1pt solid;*/
     background-color: #083e46;
