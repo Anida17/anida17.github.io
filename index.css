@@ -1,55 +1,29 @@
-
-.judul{
-    /*border: red 1pt solid;*/
+.title{
     background-color: #083e46;
     color: white;
     width: 100%;
-        }   
+}   
 .isijudul{
     /*border: red 1pt solid;*/
     width: fit-content;
 }    
-.judul img{
-    /*border: red 1pt solid;*/
-}         
-.judul h2{
-    /*border: red 1pt solid;*/
-    width: fit-content;
-    display: inline;
-    vertical-align: 10pt;
-}
 .tombolatas{
     background-color: #083e46;
     border-top: 2pt white solid;
     height: fit-content;
     padding-bottom: 15pt;
-    /*position: fixed;*/
-    width: 100%;
-    
+    width: 100%; 
 }
-.tombolataskiri, .tombolataskanan {
+.link{
     padding-top: 15pt;
     padding-left:10pt ;
-
     display: inline;
-}
-.tombolataskiri a{
     text-decoration: none;
     background-color: #9dccd3;
     margin-right: 10pt ;
     padding: 7pt;
     color: black;
     float: left;
-}
-
-.tombolataskanan a{
-    text-decoration: none;
-    border: #083e46 2pt solid;
-    margin-right: 10pt ;
-    padding: 5pt;
-    color: black;
-    float: right;
-    margin-top: 5pt;
 }
 .tombolatas button{
     padding: 2pt;
@@ -69,21 +43,20 @@
 .login:hover{
     color: rgb(58, 5, 63)
 }
+.body{
+    margin-top: 10%;
+}
 @media screen and (max-width: 800px){
     .isijudul{
         margin: 0 auto;
-        
     }                
-    .tombolatas{
-        /* display: none; */
-    }
     .tombolatas button{
         display: inline;
         float: right;
         margin-inline-end: 1cm;
         margin-top: 5pt;
     }
-    .tombolataskiri a, .tombolataskanan a {
+    .link{
         float: none;10pt;
         display: block;
         width: 70%;
@@ -92,6 +65,4 @@
         text-align: center;
     }
 }
-.badan{
-    margin-top: 10%;
-}
+
