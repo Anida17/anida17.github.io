@@ -65,7 +65,7 @@
         margin-inline-end: 1cm;
         margin-top: 5pt;
     }
-    .button{
+    .button a{
         float: none;10pt;
         display: block;
         width: 70%;
