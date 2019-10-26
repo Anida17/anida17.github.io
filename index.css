@@ -3,8 +3,7 @@
     color: white;
     width: 100%;
 }   
-.isijudul{
-    /*border: red 1pt solid;*/
+.mark{
     width: fit-content;
 }    
 .tombolatas{
@@ -47,7 +46,7 @@
     margin-top: 10%;
 }
 @media screen and (max-width: 800px){
-    .isijudul{
+    .mark{
         margin: 0 auto;
     }                
     .tombolatas button{
