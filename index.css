@@ -14,15 +14,23 @@
     width: 100%; 
 }
 .button{
-    padding-top: 15pt;
-    padding-left:10pt ;
+    padding-top: 15px;
+    padding-left:15px ;
     display: inline;
     text-decoration: none;
-    background-color: #9dccd3;
     margin-right: 10pt ;
-    padding: 7pt;
-    color: black;
-    float: left;
+    padding: 3pt 8pt;
+    color: white;
+    border: white 1pt solid;
+    border-radius: 5pt;
+    float: right;
+    position: relative;
+    right: 5%;
+    top: 0.5%;
+}
+.button a:hover{
+    color: rgb(247, 247, 126);
+    border-color: rgb(247, 247, 126);
 }
 .tombolatas button{
     padding: 2pt;
