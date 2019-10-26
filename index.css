@@ -13,15 +13,17 @@
     padding-bottom: 15pt;
     width: 100%; 
 }
-.button{
+.link, .button {
     padding-top: 15px;
     padding-left:15px ;
     display: inline;
+}
+.button a{
     text-decoration: none;
     margin-right: 10pt ;
     padding: 3pt 8pt;
-    color: black;
-    border: black 1pt solid;
+    color: white;
+    border: white 1pt solid;
     border-radius: 5pt;
     float: right;
     position: relative;
