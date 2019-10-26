@@ -18,6 +18,22 @@
     padding-left:15px ;
     display: inline;
 }
+/*
+.link a{
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 7pt;
+    color: yellow;
+    font-size: 16pt;
+    float: left;
+    position: relative;
+    bottom: 4px;
+    left: 8px;
+}
+.link a:hover{
+    color: rgb(211, 57, 57);
+}
+*/
 .button a{
     text-decoration: none;
     margin-right: 10pt ;
@@ -47,10 +63,10 @@
     font-size: 18pt;
 }
 .daftar:hover{
-    color: rgb(58, 5, 63)
+    color: rgb(58, 5, 63);
 }
 .login:hover{
-    color: rgb(58, 5, 63)
+    color: rgb(58, 5, 63);
 }
 .body{
     margin-top: 10%;
