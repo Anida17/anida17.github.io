@@ -13,7 +13,7 @@
     padding-bottom: 15pt;
     width: 100%; 
 }
-.link{
+.button{
     padding-top: 15pt;
     padding-left:10pt ;
     display: inline;
@@ -55,7 +55,7 @@
         margin-inline-end: 1cm;
         margin-top: 5pt;
     }
-    .link{
+    .button{
         float: none;10pt;
         display: block;
         width: 70%;
