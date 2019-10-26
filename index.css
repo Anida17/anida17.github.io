@@ -65,13 +65,12 @@
         margin-inline-end: 1cm;
         margin-top: 5pt;
     }
-    .button a{
-        float: none;10pt;
+    .link a, .button a {
+        float: none;
         display: block;
         width: 70%;
         margin: 0 auto;
-        margin-bottom: 5pt;
+        margin-bottom: 8pt;
         text-align: center;
     }
 }
-
