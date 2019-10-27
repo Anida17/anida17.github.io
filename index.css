@@ -8,9 +8,8 @@
 }    
 .tombolatas{
     background-color: #083e46;
-    border-top: 1pt white solid;
     height: fit-content;
-    padding-bottom: 15pt;
+    padding-bottom: 10pt;
     width: 100%; 
 }
 .link, .button {
@@ -21,13 +20,14 @@
 .button a{
     text-decoration: none;
     margin-right: 10pt ;
-    padding: 3pt 8pt;
+    padding: 3pt 10pt;
     color: white;
-    border: white 1.2pt solid;
+    border: white 1pt solid;
     border-radius: 5pt;
     float: right;
     position: relative;
-    top: 0.5%;
+    right: 2%;
+    bottom: 2%;
 }
 .button a:hover{
     color: rgb(247, 247, 126);
