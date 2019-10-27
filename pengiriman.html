@@ -1,100 +1,97 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Pengiriman SIP Book</title>
-    <link rel="stylesheet" href="pengiriman.css">
+    <title>Form Pengiriman SIP Book</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width = device-width, initial scale = 1.0">
+
+    <link rel="stylesheet" href="pengiriman.css" media="screen">
     <link rel="shortcut icon" href="icons8-book-64.png">
 </head>
+
 <BODY>
-    <table align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="083e46" style="padding: 0px">
-        <tr>
-            <td bgcolor="083e46"><table width="1340" border="0" align="center" cellpadding="0" cellspacing="0">
-        </tr>
+    <div class="title">
+        <div class="mark">
+            <img src="icons8-book-64.png" width="90px" height="90px" style="position:relative; top: 15px;">
+            <font face="Gill Sans MT" style="color: yellow; font-size: 50pt"> SIP Book</font>
+            <img src="kembaranq.jpg" width="90" height="90" class="ava">
+                <a class="name" href="profil.html"><font face="Gill Sans MT"><b>Markonah</b></font></a>
+                <a class="logout" href="index.html"><font face="Gill Sans MT">log out</font></a>
+            <br>
+            <font face="Gill Sans MT" style="color:rgba(245, 243, 243, 0.925);font-size: 25pt;margin-left:15px">Sistem Informasi Pemesanan Buku Cepat dan Mudah Via Online</font> 
+            <br>
+            <br>
+        </div>
+    </div>
+    <div class="tombolatas" id="topnav">
+        <div class="link">
+            <a href="home.html">
+                <font face="Gisha"><b>HOME</b></font>
+            </a>
+            <a href="Tabelpemesanan.html">
+                <font face="Gisha"><b>PEMESANAN</b></font>
+            </a>
+            <a href="transaksi.html">
+                <font face="Gisha"><b>TRANSAKSI</b></font>
+            </a>
+            <a href="pengiriman.html">
+                <font face="Gisha"><b>PENGIRIMAN</b></font>
+            </a>
+            <a href="profil.html">
+                <font face="Gisha"><b>PROFIL</b></font>
+            </a>
+        </div>
+            <input type="search" name="pencarian" class="search" placeholder="Pencarian"> 
+            <a class="submit" href="pemesanan.html"><font face="Gisha"><b>search</b></font></a>     
+            <a href="notifikasi.html" class="notifikasi"><img src="alarm.png" alt="notifikasi" height="34" width="34"></a>
+    </div>
+    <div class="body">
+        <font face="Gisha" style="font-size: 22pt; color:rgb(65, 62, 62)"><b><u>FORM PENGIRIMAN</u></b></font></a>
         <br>
         <br>
-            <img src="icons8-book-64.png">
-            <font face="Gill Sans MT" style="color: yellow; font-size: 50pt">SIP Book</font>
-            <img src="kembaranq.jpg" width="100" height="100" style="position:absolute;left:1180px;border-radius:50%">
-            <a class="logout" href="index.html"><font face="Gill Sans MT">log out</font></a>
         <br>
-            <font face="Gill Sans MT" style="color:rgba(245, 243, 243, 0.925);font-size: 25pt"><i>Sistem Informasi Pemesanan Buku Cepat dan Mudah Via Online</i></font>
+            <label for="penerima">
+                    <font face="Roboto">Nama Penerima</font>
+            </label>
+            <input type="text" name="penerima" size="40" placeholder="Isi nama penerima" class="form" required>
+        <br>
+        <br>
+            <label for="alamat">
+                <font face="Roboto">Alamat Penerima</font>
+            </label>
+            <input type="text" name="alamat" size="40" placeholder="Isi alamat dengan lengkap" class="form1" required>
+        <br>
+        <br>
+            <label for="viapengiriman">
+                <font face="Roboto">Via Pengiriman</font>
+            </label>
+            <div class="viapengiriman">
+                <input type="radio" name="jne" value="jne"><img src="JNE.png" alt="jne" height="100" width="120">
+                <br>
+                <br>
+                <input type="radio" name="jnt" value="jnt"><img src="jnt.png" alt="jnt" height="40" width="170">
+                <br>
+                <br>
+                <input type="radio" name="cod" value="cod"><img src="cod.jpg" alt="cod" height="55" width="140">
+            </div>
+    </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+            <a href="Tabelpemesanan.html" class="batal"><font face="Gisha"><i>Batal</i></font></a> &nbsp;&nbsp;&nbsp;
+            <a href="pengiriman_tabel.html" class="simpan"><font face="Gisha"><i>Simpan</i></font></a>
+        <br>
+        <br>
         <br>
         <br>
         <hr>
-    </table>
-    <table align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="fffff" style="padding: 0px">
-            <tr>
-                <td bgcolor="083e46"><table width="1340" border="0" align="center" cellpadding="0" cellspacing="0">
-            </tr>
-            <tr>
-            <br>
-                <div class="button">
-                    <a class="link" href="home.html"><font face="Gisha"><b>HOME</b></font></a> &nbsp;&nbsp;&nbsp;
-                    <a class="link" href="Tabelpemesanan.html"><font face="Gisha"><b>PEMESANAN</b></font></a> &nbsp;&nbsp;&nbsp;
-                    <a class="link" href="transaksi.html"><font face="Gisha"><b>TRANSAKSI</b></font></a> &nbsp;&nbsp;&nbsp;
-                    <a class="link" href="pengiriman.html"><font face="Gisha"><b>PENGIRIMAN</b></font></a> &nbsp;&nbsp;&nbsp;
-                    <a class="link" href="profil.html"><font face="Gisha"><b>PROFIL</b></font></a>
-                </div>
-                <div>
-                    <input type="search" name="pencarian" class="search" placeholder="Pencarian"> 
-                    <a class="submit" href="pemesanan.html"><font face="Gisha"><b>search</b></font></a>
-                </div>
-                <div class="notifikasi">   
-                    <a href="notifikasi.html"><font face="Gisha"><img src="alarm.png" alt="notifikasi" height="34" width="34"></a>
-                </div>
-            </tr>
-    </table>
-    <br>
-    <table align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="ffffff" style="padding: 0px">
-            <tr>
-                <td bgcolor="ffffff"><table width="1340" border="0" align="center" cellpadding="0" cellspacing="0">
-            </tr>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-                <tr>
-                    <td><font face="Roboto" style="font-size: 22pt;color:grey; margin-left:350px">Nama Penerima</font></td>
-                    <td><font face="Roboto" style="font-size: 22pt;color:grey; margin-left:-680px">:</font></td>
-                    <td><input type="text" name="nama" size="40" placeholder="Isi dengan nama lengkap" style="margin-left:-630px" class="box1"></td>
-                </tr>
-                <tr>
-                    <td><font face="Roboto" style="font-size: 22pt;color:grey; margin-left:350px">Alamat Penerima</font></td>
-                    <td><font face="Roboto" style="font-size: 22pt;color:grey; margin-left:-680px">:</font></td>
-                    <td><input type="text" name="Alamat" size="40" placeholder="Masukkan alamat" style="margin-left:-630px" class="box2"></td>
-                </tr>
-                <tr>
-                    <td><font face="Roboto" style="font-size: 22pt;color:grey; margin-left:350px">Via Pengiriman</font></td>
-                    <td><font face="Roboto" style="font-size: 22pt;color:grey; margin-left:-680px">:</font></td>
-                    <td>
-                        <input type="radio" name="jne" value="jne" style="margin-left:-630px"><img src="JNE.png" alt="jne" height="80" width="120">
-                        <br>
-                        <br>
-                        <input type="radio" name="jnt" value="jnt" style="margin-left:-630px"><img src="jnt.png" alt="jnt" height="40" width="170">
-                        <br>
-                        <br>
-                        <input type="radio" name="cod" value="cod" style="margin-left:-630px"><img src="cod.jpg" alt="cod" height="55" width="140">
-                    </td>
-                </tr>
-    </table>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-        <a href="Tabelpemesanan.html" class="batal"><font face="Gisha" style="font-size: 16pt"><i>Batal</i></font></a>
-        <a href="pengiriman_tabel.html" class="simpan"><font face="Gisha" style="font-size: 16pt"><i>Simpan</i></font></a>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <hr>
         <p align="center">
             <font face="Roboto" style="font-size: 10pt; color:black"><i> ©2019 User Register SIP Book Rights Reserved </i></font>
         </p>
-    <hr>
-    <footer>182410101045_182410101062</footer>
+        <hr>
+        <footer>182410101045_182410101062</footer>
 </BODY>
 </html>
