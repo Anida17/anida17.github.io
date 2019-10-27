@@ -1,42 +1,35 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Register SIP Book</title>
-    <link rel="stylesheet" href="register.css">
+    <title>SIgn Up SIP Book</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width = device-width, initial scale = 1.0">
+
+    <link rel="stylesheet" href="register.css" media="screen">
     <link rel="shortcut icon" href="icons8-book-64.png">
 </head>
+
 <BODY>
-    <table align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="083e46" style="padding: 0px">
-        <tr>
-            <td bgcolor="083e46"><table width="1340" border="0" align="center" cellpadding="0" cellspacing="0">
-        </tr>
-        <br>
-        <br>
-            <img src="icons8-book-64.png">
-            <font face="Gill Sans MT" style="color: yellow; font-size: 50pt">SIP Book</font>
-        <br>
-            <font face="Gill Sans MT" style="color:rgba(245, 243, 243, 0.925);font-size: 25pt"><i>Sistem Informasi Pemesanan Buku Cepat dan Mudah Via Online</i></font>
-        <br>
-        <br>
-    </table>
-    <table align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="fffff" style="padding: 0px">
-            <tr>
-                <td bgcolor="083e46"><table width="1340" border="0" align="center" cellpadding="0" cellspacing="0">
-            </tr>
-            <tr>
-                <div>
-                    <a class="submit" href="login.html"><font face="Gisha"><b>LOGIN</b></font></a>
-                </div>
-            </tr>
-    </table>
-    <br>
-    <table align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="ffffff" style="padding: 0px">
-            <tr>
-                <td bgcolor="ffffff"><table width="1340" border="0" align="center" cellpadding="0" cellspacing="0">
-            </tr>
-                <br>
-                <br>
-                <br> 
+    <div class="title">
+        <div class="mark">
+            <img src="icons8-book-64.png" width="90px" height="90px" style="position:relative; top: 15px;">
+            <font face="Gill Sans MT" style="color: yellow; font-size: 50pt"> SIP Book</font>
+            <br>
+            <font face="Gill Sans MT" style="color:rgba(245, 243, 243, 0.925);font-size: 25pt;margin-left:15px">Sistem Informasi Pemesanan Buku Cepat dan Mudah Via Online</font> 
+            <br>
+            <br>
+        </div>
+    </div>
+    <div class="tombolatas" id="topnav">
+        <div class="button">
+            <a class="" href="login.html">
+                <font face="Gisha"><b>MASUK</b></font>
+            </a>
+        </div>    
+    </div>
+
+    <div class="body">
                 <p align="center">
                     <img src="register.png" alt="login" height="100" width="100">
                     <br>
@@ -46,59 +39,60 @@
                 <br>
                 <br>
                 <br>
-    <form onsubmit="return Validate()" action="login.html">
 
+    <form onsubmit="return Validate()" action="login.html">
         <label for="username">
-                <font face="Roboto" style="font-size: 18pt;color:grey; margin-left:450px">Username </font>
+                <font face="Roboto" class="text">Username </font>
         </label>
-        <input type="text" name="username" size="40" placeholder="Username" style="margin-left:-630px" class="username" required>
+        <input type="text" name="username" size="40" placeholder="Username" class="username" required>
     <br>
     <br>
         <label for="jeniskelamin">
-            <font face="Roboto" style="font-size: 18pt;color:grey; margin-left:450px">Jenis Kelamin </font>
+            <font face="Roboto" class="text">Jenis Kelamin </font>
         </label>
         <div class="jeniskelamin">
-            <input type="radio" name="lakilaki" value="lakilaki"><font face="Roboto" style="font-size: 16pt;color:grey">Laki-laki</font> &nbsp;&nbsp;&nbsp;&nbsp;
-            <input type="radio" name="perempuan" value="perempuan"><font face="Roboto" style="font-size: 16pt;color:grey">Perempuan</font>
+            <input type="radio" name="lakilaki" value="lakilaki"><font face="Roboto" style="font-size:16pt;color:grey">Laki-laki</font> &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="perempuan" value="perempuan"><font face="Roboto" style="font-size:16pt;color:grey">Perempuan</font>
         </div>
     <br>
     <br>
         <label for="alamat">
-            <font face="Roboto" style="font-size: 18pt;color:grey; margin-left:450px">Alamat </font>
+            <font face="Roboto" class="text">Alamat </font>
         </label>
-        <input type="text" name="alamat" size="40" placeholder="Isi alamat" style="margin-left:-630px" class="alamat" required>
+        <input type="text" name="alamat" size="40" placeholder="Isi alamat" class="alamat" required>
     <br>
     <br>
         <label for="email">
-                <font face="Roboto" style="font-size: 18pt;color:grey; margin-left:450px">Email </font>
+                <font face="Roboto" class="text">Email </font>
         </label>
-        <td><input type="email" name="email" size="40" placeholder="username@gmail.com" style="margin-left:-630px" required class="email">
+        <td><input type="email" name="email" size="40" placeholder="username@gmail.com" required class="email">
     <br>
     <br>
         <label for="password">
-            <font face="Roboto" style="font-size: 18pt;color:grey; margin-left:450px">Password </font>
+            <font face="Roboto" class="text">Password </font>
         </label>
-        <input type="password" name="password" size="40" placeholder="password" required minlength="8" maxlength="12" style="margin-left:-630px" class="password">
+        <input type="password" name="password" size="40" placeholder="password" required minlength="8" maxlength="12" class="password">
     <br>
     <br>
         <label for="ktp">
-            <font face="Roboto" style="font-size: 18pt;color:grey; margin-left:450px">KTP </font>
+            <font face="Roboto" class="text">KTP </font>
         </label>
-        <input type="text" name="ktp" size="40" placeholder="35xxxxxxxxxxxxxx" required minlength="16" maxlength="16" style="margin-left:-630px" class="ktp">
+        <input type="text" name="ktp" size="40" placeholder="35xxxxxxxxxxxxxx" required minlength="16" maxlength="16" class="ktp">
     <br>
     <br>
         <label for="hp">
-            <font face="Roboto" style="font-size: 18pt;color:grey; margin-left:450px">No. HP </font>
+            <font face="Roboto" class="text">No. HP </font>
         </label>
-        <input type="text" name="HP" size="40" placeholder="08xxxxxxxxxx" required minlength="11" maxlength="12" style="margin-left:-630px" class="hp">
+        <input type="text" name="HP" size="40" placeholder="08xxxxxxxxxx" required minlength="11" maxlength="12" class="hp">
     <br>
     <br>
             <button class="register" type="submit" onclick="Validate();">
                 <font face="Gisha" style="font-size: 16pt"><i>Daftar</i></font>
             </button>
     </form>
+
     <script type="text/javascript">
-    
+
     function Validate()
     {
         var username = document.getElementById("username");
@@ -117,8 +111,9 @@
         else 
         {
                 true;
-        }
-        }    
+        } 
+    }
+
     </script>
         <br>
         <br>
@@ -139,5 +134,6 @@
         </p>
         <hr>
         <footer>182410101045_182410101062</footer>
+    </div>
 </BODY>
 </html>
