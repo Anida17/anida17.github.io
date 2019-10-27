@@ -1,41 +1,35 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Login SIP Book</title>
-    <link rel="stylesheet" href="login.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width = device-width, initial scale = 1.0">
+
+    <link rel="stylesheet" href="login.css" media="screen">
     <link rel="shortcut icon" href="icons8-book-64.png">
 </head>
+
 <BODY>
-    <table align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="083e46" style="padding: 0px">
-        <tr>
-            <td bgcolor="083e46"><table width="1340" border="0" align="center" cellpadding="0" cellspacing="0">
-        </tr>
-        <br>
-        <br>
-            <img src="icons8-book-64.png">
-            <font face="Gill Sans MT" style="color: yellow; font-size: 50pt">SIP Book</font>
-        <br>
-            <font face="Gill Sans MT" style="color:rgba(245, 243, 243, 0.925);font-size: 25pt"><i>Sistem Informasi Pemesanan Buku Cepat dan Mudah Via Online</i></font>
-        <br>
-        <br>
-    </table>
-    <table align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="fffff" style="padding: 0px">
-            <tr>
-                <td bgcolor="083e46"><table width="1340" border="0" align="center" cellpadding="0" cellspacing="0">
-            </tr>
-            <tr>
-                <div>
-                    <a class="submit" href="register.html"><font face="Gisha"><b>REGISTER</b></font></a>
-                </div>
-            </tr>
-    </table>
-    <br>
-    <table align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="ffffff" style="padding: 0px">
-            <tr>
-                <td bgcolor="ffffff"><table width="1340" border="0" align="center" cellpadding="0" cellspacing="0">
-            </tr>
+    <div class="title">
+        <div class="mark">
+            <img src="icons8-book-64.png" width="90px" height="90px" style="position:relative; top: 15px;">
+            <font face="Gill Sans MT" style="color: yellow; font-size: 50pt"> SIP Book</font>
+            <br>
+            <font face="Gill Sans MT" style="color:rgba(245, 243, 243, 0.925);font-size: 25pt;margin-left:15px">Sistem Informasi Pemesanan Buku Cepat dan Mudah Via Online</font> 
             <br>
             <br>
+        </div>
+    </div>
+    <div class="tombolatas" id="topnav">
+        <div class="button">
+            <a class="" href="register.html">
+                <font face="Gisha"><b>DAFTAR</b></font>
+            </a>
+        </div>    
+    </div>
+
+    <div class="body">
             <p align="center">
                 <img src="login.png" alt="login" height="100" width="100">
                 <br>
@@ -48,21 +42,21 @@
             <form onsubmit="return Validate()" action="home.html">
 
                 <label for="username">
-                        <font face="Roboto" style="font-size: 18pt;color:grey; margin-left:450px">Username </font>
+                    <font face="Roboto" class="text">Username </font>
                 </label>
-                <input type="text" id="username" required size="40" placeholder="Masukkan username" style="margin-left:-630px" class="username">
+                <input type="text" id="username" required size="40" minlength="4" placeholder="Masukkan username" class="username">
                 <br>
                 <br>
                 <label for="password">
-                    <font face="Roboto" style="font-size: 18pt;color:grey; margin-left:450px">Password </font>
+                    <font face="Roboto" class="text">Password </font>
                 </label>
-                <input type="password" id="password" required size="40" placeholder="Masukkan password" style="margin-left:-630px" class="password">
+                <input type="password" id="password" required minlength="8" maxlength="12" size="40" placeholder="Masukkan password" class="password">
                 <br>
                 <br>
                 <br>
                 <br>
                     <button class="masuk" type="submit" onclick="Validate();">
-                        <font face="Gisha" style="font-size: 16pt"><i>Masuk</i></font>
+                        <font face="Gisha"><i>Masuk</i></font>
                     </button>
             </form>
             <script type="text/javascript">
@@ -81,19 +75,15 @@
                 {
                         true;
                 }
-                }
-                
+            }
+
             </script>
-    <br>
-    <br>
-    <br>
-    <br>
     <br>
     <br>
     <p align="center">
         <font face="Gisha" style="font-size: 10pt; color: black"><i>Belum memiliki akun?</i></font>
         <br>
-        <a href="register.html" class="register"><font face="Gisha" style="font-size: 10pt; color: rgb(49, 49, 138)"><i>Register</i></font></a>
+        <a href="register.html" class="register"><font face="Gisha"><i>Register</i></font></a>
     </p>
     <br>
     <br>
@@ -103,6 +93,6 @@
     </p>
     <hr>
     <footer>182410101045_182410101062</footer>
+    </div>
 </BODY>
 </html>
-
