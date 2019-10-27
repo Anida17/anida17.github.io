@@ -1,20 +1,56 @@
-.submit{
-    position: absolute;
-    border: 1px solid white;
-    padding: 5px 20px;
+.title{
+    background-color: #083e46;
     color: white;
-    text-decoration: none;
-    transition: 0.6s ease;
-    top: 20%;
-    left: 90%;
+    width: 100%;
+}   
+.mark{
+    width: fit-content;
+}    
+.tombolatas{
+    background-color: #083e46;
+    height: fit-content;
+    padding-bottom: 10pt;
+    width: 100%; 
 }
-.link{
-    text-decoration: none;
-    color: yellow;
-    font-size: 16pt;
+.link, .button {
+    padding-top: 15px;
+    padding-left:15px ;
+    display: inline;
 }
-.link:hover{
-    color: rgb(211, 57, 57)
+.button a{
+    text-decoration: none;
+    margin-right: 10pt ;
+    padding: 3pt 10pt;
+    color: white;
+    border: white 1pt solid;
+    border-radius: 5pt;
+    float: right;
+    position: relative;
+    right: 2%;
+    bottom: 2%;
+}
+.button a:hover{
+    color: rgb(247, 247, 126);
+    border-color: rgb(247, 247, 126);
+}
+.tombolatas button{
+    padding: 2pt;
+    display: none;
+}
+.login{
+    color: rgb(76, 76, 172);
+    font-size: 18pt;
+}
+.login:hover{
+    color: rgb(58, 5, 63);
+}
+.body{
+    margin-top: 7%;
+}
+.text{
+    font-size: 17pt;
+    color:rgb(114, 112, 112);
+    margin-left: 30%;
 }
 .username{
     border: 1px solid grey;
@@ -23,9 +59,7 @@
     color: black;
     text-decoration: none;
     transition: 0.6s ease;
-    position: absolute;
-    top:490px;
-    left:1210px;
+    margin-left: 4%;
 }
 .password{
     border: 1px solid grey;
@@ -33,9 +67,8 @@
     padding: 6px 25px;
     color: black;
     text-decoration: none;
-    position: absolute;
-    top:535px;
-    left:1210px;
+    transition: 0.6s ease;
+    margin-left: 4.4%;
 }
 .masuk{
     border: 1px solid white;
@@ -44,14 +77,40 @@
     color: white;
     text-decoration: none;
     transition: 0.6s ease;
-    position: absolute;
-    top:625px;
-    left:640px;
+    font-size: 16pt;
+    margin-left: 46%;
+    margin-top: 2%;
 }
 .masuk:hover{
     background-color: black;
 }
+.register{
+    font-size: 10pt; 
+    color: rgb(49, 49, 138);
+}
 .register:hover{
-    color: rgb(179, 15, 179);
-    transition: 0.6s ease;
+    color: rgb(179, 15, 179)
+}
+@media screen and (max-width: 800px){
+    .mark{
+        margin: 0 auto;
+    }                
+    .tombolatas button{
+        display: inline;
+        float: right;
+        margin-inline-end: 1cm;
+        margin-top: 5pt;
+    }
+    .link a, .button a {
+        float: none;
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 8pt;
+        text-align: center;
+    }
+    .text{
+        margin: 0 auto;
+        margin-left: 1%;
+    }
 }
