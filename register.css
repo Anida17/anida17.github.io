@@ -116,8 +116,12 @@
 .register:hover{
     background-color: black;
 }
+.login{
+    font-size: 10pt; 
+    color: rgb(49, 49, 138);
+}
 .login:hover{
-    color: rgb(143, 26, 143)
+    color: rgb(226, 91, 29)
 }
 @media screen and (max-width: 800px){
     .mark{
