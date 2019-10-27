@@ -1,97 +1,107 @@
-.submit{
-    position: absolute;
-    border: 1px solid white;
-    padding: 5px 20px;
+.title{
+    background-color: #083e46;
     color: white;
-    text-decoration: none;
-    transition: 0.6s ease;
-    top: 20%;
-    left: 90%;
+    width: 100%;
+}   
+.mark{
+    width: fit-content;
+}    
+.tombolatas{
+    background-color: #083e46;
+    height: fit-content;
+    padding-bottom: 10pt;
+    width: 100%; 
 }
-.link{
+.link, .button {
+    padding-top: 15px;
+    padding-left:15px ;
+    display: inline;
+}
+.button a{
     text-decoration: none;
-    color: yellow;
+    margin-right: 10pt ;
+    padding: 3pt 10pt;
+    color: white;
+    border: white 1pt solid;
+    border-radius: 5pt;
+    float: right;
+    position: relative;
+    right: 2%;
+    bottom: 2%;
+}
+.button a:hover{
+    color: rgb(247, 247, 126);
+    border-color: rgb(247, 247, 126);
+}
+.tombolatas button{
+    padding: 2pt;
+    display: none;
+}
+.login{
+    color: rgb(76, 76, 172);
+    font-size: 18pt;
+}
+.login:hover{
+    color: rgb(58, 5, 63);
+}
+.body{
+    margin-top: 7%;
+}
+.text{
     font-size: 16pt;
-}
-.link:hover{
-    color: rgb(211, 57, 57)
+    color:grey;
+    margin-left: 30%;
 }
 .username{
     border: 1px solid grey;
     border-radius: 3%;
-    padding: 6px 60px;
+    padding: 6px 30px;
     color: black;
     text-decoration: none;
-    transition: 0.6s ease;
-    transform: translate(-50%,-50%);
-    position: absolute;
-    top:515px;
-    left:1510px;
+    margin-left: 5%;
 }
 .jeniskelamin{
-    position: absolute;
-    top:545px;
-    left:680px;
+    margin-left: 42%;
 }
 .alamat{
     border: 1px solid grey;
     border-radius: 3%;
-    padding: 6px 60px;
+    padding: 6px 30px;
     color: black;
     text-decoration: none;
-    transition: 0.6s ease;
-    transform: translate(-50%,-50%);
-    position: absolute;
-    top:605px;
-    left:1510px;
+    margin-left: 7%;
 }
 .email{
     border: 1px solid grey;
     border-radius: 3%;
-    padding: 6px 60px;
+    padding: 6px 30px;
     color: black;
     text-decoration: none;
-    transition: 0.6s ease;
-    transform: translate(-50%,-50%);
-    position: absolute;
-    top:650px;
-    left:1510px;
+    margin-left: 7.9%;
 }
 .password{
     border: 1px solid grey;
     border-radius: 3%;
-    padding: 6px 60px;
+    padding: 6px 30px;
     color: black;
     text-decoration: none;
-    transition: 0.6s ease;
-    transform: translate(-50%,-50%);
-    position: absolute;
-    top:715px;
-    left:1510px;
+    margin-left: 5.6%;
 }
 .ktp{
     border: 1px solid grey;
     border-radius: 3%;
-    padding: 6px 60px;
+    padding: 6px 30px;
     color: black;
     text-decoration: none;
-    transition: 0.6s ease;
-    transform: translate(-50%,-50%);
-    position: absolute;
-    top:760px;
-    left:1510px;
+    margin-left: 8.8%;
 }
 .hp{
     border: 1px solid grey;
     border-radius: 3%;
-    padding: 6px 60px;
+    padding: 6px 30px;
     color: black;
     text-decoration: none;
-    transition: 0.6s ease;
-    transform: translate(-50%,-50%);
-    position: absolute;
-    top:805px;
-    left:1510px;
+    margin-left: 7%;
 }
 .register{
     border: 1px solid white;
@@ -100,13 +110,62 @@
     color: white;
     text-decoration: none;
     transition: 0.6s ease;
-    position: absolute;
-    top:880px;
-    left:640px;
+    margin-left: 45%;
+    margin-top: 5%;
 }
 .register:hover{
     background-color: black;
 }
 .login:hover{
     color: rgb(143, 26, 143)
+}
+@media screen and (max-width: 800px){
+    .mark{
+        margin: 0 auto;
+    }                
+    .tombolatas button{
+        display: inline;
+        float: right;
+        margin-inline-end: 1cm;
+        margin-top: 5pt;
+    }
+    .link a, .button a {
+        float: none;
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 8pt;
+        text-align: center;
+    }
+    .text{
+        margin: 0 auto;
+        margin-left: 1%;
+    }
+    .username{
+        padding: 6px 8px;
+        margin-left: 7%;
+    }
+    .jeniskelamin{
+        margin-left: 35%;
+    }
+    .alamat{
+        padding: 6px 8px;
+        margin-left: 12%;
+    }
+    .email{
+        padding: 6px 8px;
+        margin-left: 14.4%;
+    }
+    .password{
+        padding: 6px 8px;
+        margin-left: 7.5%;
+    }
+    .ktp{
+        padding: 6px 8px;
+        margin-left: 16.4%;
+    }
+    .hp{
+        padding: 6px 8px;
+        margin-left: 11%;
+    }
 }
