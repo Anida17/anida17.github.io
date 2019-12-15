@@ -89,7 +89,7 @@
     color: rgb(202, 138, 17);
 }
 .body{
-    margin-top: -10%;
+    margin-top: %;
 }
 .batal{
     border: 1px solid white;
@@ -118,13 +118,6 @@
 }
 .simpan:hover{
     background-color: rgb(83, 132, 240);
-}
-.tabel{
-    position: absolute;
-    left: 18%;
-    top: 63%;
-    background-color: rgba(248, 249, 250, 0.938);
-    border: white
 }
 .tabel{
     position: absolute;
