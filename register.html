@@ -86,35 +86,93 @@
         <input type="text" name="HP" size="40" placeholder="08xxxxxxxxxx" required minlength="11" maxlength="12" class="hp">
     <br>
     <br>
-            <button class="register" type="submit" onclick="Validate();">
+    <label for="Foto profil">
+        <font face="Roboto" class="text">Foto Profil </font>
+    </label>
+    <div class="image-center">
+        <img id="image_upload_preview" src="http://placehold.it/100x100" alt="your image"
+        style="width: 250px; height: 250px; border-radius:50%" />
+    </div>
+    <br>
+    <div class="input-hidden">
+        <input type='file' id="inputFile" />
+    </div>
+    <br>
+    <br>
+            <button id="register" type="submit" class="register">
                 <font face="Gisha" style="font-size: 16pt"><i>Daftar</i></font>
             </button>
     </form>
 
-    <script type="text/javascript">
-
-    function Validate()
-    {
-        var username = document.getElementById("username");
-        var password = document.getElementById("jeniskelamin");
-        var password = document.getElementById("alamat");
-        var password = document.getElementById("email");
-        var password = document.getElementById("password");
-        var password = document.getElementById("ktp");
-        var password = document.getElementById("hp");
-    
-        if(username.value.trim()=="" ||jeniskelamin.value.trim()=="" ||alamat.value.trim()=="" ||email.value.trim()=="" ||password.value.trim()=="" ||ktp.value.trim()=="" ||hp.value.trim()=="") 
-        {
-            alert("Tidak boleh kosong");
-            return false;
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        function alertAction() {
+            alert("Silahkan Login Atau Sign Up Terlebih Dahulu");
         }
-        else 
-        {
-                true;
-        } 
-    }
-
+    
+ 
+            $('#register').click(function () {
+                $('.bg-modal').addClass('showModal');
+            });
+            $('.close').click(function () {
+                $('.bg-modal').addClass('hideModal');
+                $('.bg-modal').removeClass('showModal');
+            });
+   
+    
+        function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+            
+                reader.onload = function (e) {
+                    $('#image_upload_preview').attr('src', e.target.result);
+                }
+            
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+    
+        $("#inputFile").change(function () {
+            readURL(this);
+            $('.input-hidden').css({
+                'opacity':'0'
+            });
+        });
     </script>
+
+    <script>
+        $('#image_upload_preview').click(function () {
+            $('#inputFile').click();
+        });
+    </script>
+
+    <div class="bg-modal">
+        <div class="modal-content">
+            <div class="close">x</div>
+            <form action="">
+                <font face="Roboto" style="font-size: 38pt"><b>Harap Lengkapi Data!</b></font>
+            </form>
+        </div>
+        <script src="js/jquery.min.js"></script>
+        <script>
+            document.getElementById('register').addEventListener('click', function () {
+                document.querySelector('.bg-modal').style.display = 'flex';
+            });
+            document.querySelector('.close').addEventListener('click', function () {
+                document.querySelector('.bg-modal').style.display = 'none';
+            });
+        
+            function toggleModal() {
+                modal.classList.toggle("show-modal");
+            }
+        
+            function windowOnClick(event) {
+                if (event.target === modal) {
+                    toggleModal();
+                }
+            }
+        </script>
+    </div>
         <br>
         <br>
         <br>
