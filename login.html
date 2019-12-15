@@ -78,7 +78,7 @@
             }
 
             </script>
-    <br>
+   <br>
     <br>
     <p align="center">
         <font face="Gisha" style="font-size: 10pt; color: black"><i>Belum memiliki akun?</i></font>
@@ -86,6 +86,32 @@
         <a href="register.html" class="register"><font face="Gisha"><i>Register</i></font></a>
     </p>
     <br>
+    
+    <canvas id="kotak" width="1200" height="100"></canvas>
+    
+    <script type="text/javascript">
+        window.onload = function () {
+            var c = document.getElementById("kotak");
+            var ctx = c.getContext("2d");
+            x = 0;
+            y = 0;
+            animate();
+            
+            function animate() {
+                ctx.clearRect(0, 0, c.width, c.height);
+                ctx.fillRect(x, 50, 200, 30);
+                x += 2;
+                
+                setTimeout(animate, 50);
+            }
+        }
+    </script>
+    <marquee scrolldelay="200">------------------------------------------------------------------------------------------------------------------------SIP BOOK.COM 
+            ------------------------------------------------------------------------------------------------------------------------</marquee>
+            <marquee scrolldelay="200">Sistem Informasi Pemesanan Buku Cepat dan Mudah. Selamat Datang di SIP Book. Temukan buku favorit anda dengan cepat dan mudah.
+            Lakukan pemesanan secara online dimana saja dan kapan saja di SIP Book</marquee>
+            <marquee scrolldelay="200">------------------------------------------------------------------------------------------------------------------------SIP BOOK.COM 
+                    ------------------------------------------------------------------------------------------------------------------------</marquee>
     <br>
     <hr>
     <p align="center">
