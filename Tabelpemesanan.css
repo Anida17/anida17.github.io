@@ -140,6 +140,50 @@
 .tabel.selesai:hover{
     background-color: rgb(71, 46, 8);
 }
+.footer {
+    background-color: #083e46;
+    margin: 0px auto 0 auto;
+    text-align: center;
+    clear: both;
+    padding-bottom: 5px;
+}
+
+.socialmedia {
+    float:left;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 70px;
+    margin-top: -90px;
+
+}
+
+.socialmedia ul li {
+    display: inline-block;
+}
+
+.socialmedia img {
+    width: 30px;
+    height: 30px;
+}
+
+.meidapartner {
+    padding-top: 20px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.meidapartner img {
+    width: 100px;
+    height: 70px;
+}
+
+.contact {
+    color: #ffffff;
+    float: right;
+    margin-right: 70px;
+    margin-top: -90px;
+
+}
 @media screen and (max-width: 800px){
     .mark{
         margin: 0 auto;
