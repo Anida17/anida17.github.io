@@ -203,4 +203,20 @@
         margin: 0 auto;
         margin-left:25%;
     }
+    .socialmedia {
+        color: #fff;
+        float: none;
+        margin-left: 0px;
+        margin-top: 0px;
+
+    }
+
+    .contact {
+        color: #fff;
+        float: none;
+        margin-right: 0px;
+        margin-top: 0px;
+        padding-bottom: 20px;
+
+    }
 }
