@@ -92,6 +92,7 @@
     <div class="image-center">
         <img id="image_upload_preview" src="http://placehold.it/250x250" alt="insert profil picture"
         style="width: 250px; height: 250px; border-radius:50%" />
+    
     </div>
     <br>
     <div class="input-hidden">
@@ -104,21 +105,24 @@
             </button>
     </form>
 
+    <div class="error" id="popup_error">
+        <div class="error_content">
+            <div class="error_top">
+                <h3>Warning !!!</h3>
+            </div>
+
+            <div class="error_middle">
+                <b></b>
+            </div>
+
+            <div class="error_bottom">
+                <button class="btn" id="close_error_form">Cancel</button>
+            </div>
+        </div>
+    </div>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script>
-        function alertAction() {
-            alert("Silahkan Login Atau Sign Up Terlebih Dahulu");
-        }
-    
- 
-            $('#register').click(function () {
-                $('.bg-modal').addClass('showModal');
-            });
-            $('.close').click(function () {
-                $('.bg-modal').addClass('hideModal');
-                $('.bg-modal').removeClass('showModal');
-            });
-   
     
         function readURL(input) {
             if (input.files && input.files[0]) {
@@ -146,33 +150,83 @@
         });
     </script>
 
-    <div class="bg-modal">
-        <div class="modal-content">
-            <div class="close">x</div>
-            <form action="">
-                <font face="Roboto" style="font-size: 38pt"><b>Harap Lengkapi Data!</b></font>
-            </form>
-        </div>
-        <script src="js/jquery.min.js"></script>
-        <script>
-            document.getElementById('register').addEventListener('click', function () {
-                document.querySelector('.bg-modal').style.display = 'flex';
-            });
-            document.querySelector('.close').addEventListener('click', function () {
-                document.querySelector('.bg-modal').style.display = 'none';
-            });
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/top_menu.js"></script>
+<script type="text/javascript">
+
+	function modalShow() {
+		$("#id_modal").show();
+		$("#id_modal").css('animation', 'show_modal');
+	}
+
+	function modalHide() {
+		$("#id_modal").css('animation', 'hide_modal');
+		setTimeout(function function_name() {
+			$("#id_modal").hide();
+		}, 300);
+	}
+
+	function show_error(pesan) {
+		$("#popup_error").find('b').html(pesan);
+		setTimeout(function function_name(){
+			$("#popup_error").fadeIn('slow');
+		}, 300);
+	}
+		
+
+	$("#close_error_form").click(function(event) {
+		$("#popup_error").css('animation', 'turun 0.5s ease-out');
+		// $("#popup_error").css('animation', 'hide_modal');
+		setTimeout(function function_name() {
+			$("#popup_error").fadeOut('slow');
+		}, 300);
+	});
+
+	window.onclick = function(event) {
+		var modal = document.getElementById('popup_error');
+		// $("#popup_error").style.animation = "turun 0.5s ease-in;";
+		if(event.target == modal){
+			$("#popup_error").css('animation', 'turun 0.5s ease-out');
+			// $("#popup_error").css('animation', 'hide_modal');
+			setTimeout(function function_name() {
+				$("#popup_error").hide();
+			}, 300);
+		}
+	};
+</script>
+
+<script>
+
+    $('#register').on('click', function(event) {
+        event.preventDefault();
+        var username = $("input[name='username']").val();
+        var alamat = $("input[name='alamat']").val();
+        var email = $("input[name='email']").val();
+        var password = $("input[name='password']").val();
+        var ktp = $("select[name='ktp']").val();
+        var hp = $("select[name='hp']").val();
+        var pendidikan = $("select[name='jeniskelamin']").val();
+
+        var emailAtur = /^([a-zA-Z0-9_.+-])+@(([a-zA-Z0-9-])+.)+([a-zA-Z0-9]{2,4})+$/;
         
-            function toggleModal() {
-                modal.classList.toggle("show-modal");
-            }
-        
-            function windowOnClick(event) {
-                if (event.target === modal) {
-                    toggleModal();
-                }
-            }
-        </script>
-    </div>
+        if (username == "" || alamat == "" || email == ""|| password == "" || ktp == "" || hp == "" || jeniskelamin == "") {
+            show_error("HARAP LENGKAPI DATA!!!");
+        }
+        else if (!emailAtur.test(email)) {
+            show_error("HARAP LENGKAPI DATA!!!");
+        }
+        else if (!namaAtur.test(username.length < 13)){
+            show_error("HARAP LENGKAPI DATA!!!")
+        }
+        else if (password.length < 9) {
+            show_error("HARAP LENGKAPI DATA!!!");
+        }
+        else{
+            $("#register").off('click').trigger('click');
+        }
+    });
+</script>
+</scipt>
         <br>
         <br>
         <br>
